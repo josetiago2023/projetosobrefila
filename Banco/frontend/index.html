@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fila de Banco</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Fila de Banco</h1>
+
+        <div id="fila-display" class="fila-display">
+            <h2>Fila Atual</h2>
+            <ul id="fila"></ul> 
+        </div>
+
+        <div class="operations">
+            <input type="text" id="elemento" placeholder="Digite o nome do cliente">
+            <button id="btn-enqueue">Adicionar à Fila (Enqueue)</button>
+            <button id="btn-dequeue">Atender Cliente (Dequeue)</button>
+            <button id="btn-size">Tamanho da Fila</button>
+            <button id="btn-front">Cliente da Frente</button>
+            <button id="btn-rear">Cliente do Final</button>
+            <button id="btn-isEmpty">Fila Está Vazia?</button>
+        </div>
+
+        <div id="mensagem" class="message">
+            <p id="msg-text"></p>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
